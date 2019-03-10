@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".accountactivity.SignupAsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose a Category That Represent Your Identitiy  "
+            android:textSize="17dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="25dp"
+            android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:background="@drawable/my_button_border"
+        >
+
+        <Button
+            android:id="@+id/individual"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:background="@null"
+            android:drawableTop="@drawable/employee"
+            android:text="Individual"
+            android:textAllCaps="false"
+
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+        <!--<android.support.v7.widget.AppCompatTextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="Single User"-->
+            <!--/>-->
+
+      <LinearLayout
+          android:layout_width="250dp"
+          android:layout_height="180dp"
+          android:layout_marginTop="30dp"
+          android:background="@drawable/my_button_border">
+
+          <Button
+              android:id="@+id/organization"
+              style="?android:textAppearanceSmall"
+              android:layout_width="match_parent"
+              android:textStyle="bold"
+              android:layout_height="180dp"
+              android:layout_marginTop="10dp"
+              android:background="@null"
+              android:drawableTop="@drawable/officeblock"
+              android:text="Organization"
+              android:textAllCaps="false"
+
+              android:textColor="@color/colorPrimary" />
+      </LinearLayout>
+
+        <!--<android.support.v7.widget.AppCompatTextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+
+            <!--android:text="Corporate - University - Center"-->
+            <!--/>-->
+    </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

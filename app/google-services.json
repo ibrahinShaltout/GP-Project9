@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "437581347737",
+    "firebase_url": "https://projectgp1-211cc.firebaseio.com",
+    "project_id": "projectgp1-211cc",
+    "storage_bucket": "projectgp1-211cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437581347737:android:016c7f19112b5ed2",
+        "android_client_info": {
+          "package_name": "com.example.ibrahimshaltout.uc_gp_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437581347737-f76idlk3ugnci28r63880ikcl2p59us4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPb_21zYQrlHS_B24zWzXJHD39t9RLTsw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
