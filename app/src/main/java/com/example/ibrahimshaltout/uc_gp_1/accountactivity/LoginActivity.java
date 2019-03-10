@@ -26,7 +26,7 @@ import com.example.ibrahimshaltout.uc_gp_1.R;
 import com.google.firebase.auth.FirebaseUser;
 
 public class LoginActivity extends AppCompatActivity {
-
+//HI
     private EditText inputEmail, inputPassword;
     private FirebaseAuth auth;
     private ProgressBar progressBar;
